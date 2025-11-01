@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    height:100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 25px 0px 25px;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+
+nav a:link {
+     
+    text-decoration:none ;
+    color: purple;
+
+}
+
+nav a:visited {
+  color: rgb(0, 0, 0);  /* विजिटेड लिंक का color */
+} 
+
+/* a:link 
+{
+    color: black;
+} */
+/* a:visited{
+    color: chartreuse;
+}
+a:unvisited{
+    color: rgb(0, 0, 0);
+} */
+
+nav a:hover{
+    color: brown;
+}
+nav a:active{
+    color: aqua;
+}
