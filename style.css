@@ -2,6 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -90,10 +91,100 @@ nav a:active {
           text-decoration: aqua;
 }
 
+.navvv {
+  margin: 25px;
+  text-decoration: none;
+  color: #000000;
+  text-decoration-color: #000000;
+}
+.navvv i {
+  color: #000000;
+}
+
 .container {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: inter;
+  gap: 10px;
+}
+.container .welcome {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.container .cen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .cre {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+  align-items: center;
+  justify-content: baseline;
+  width: 380px;
+  color: black;
+  font-size: 13px;
+}
+.container .cre a {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container .box {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  width: 315px;
+  background-color: #D9D9D9;
+}
+.container .box::-moz-placeholder {
+  color: black;
+}
+.container .box::placeholder {
+  color: black;
+}
+.container .log {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 12px 15px;
+  border: none;
+  width: 315px;
+}
+.container .gog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 12px 15px;
+  border: 1px solid black;
+  width: 315px;
+}
+.container .forget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  font-size: 10px;
+  color: #000000;
+  gap: 15px;
+}
+.container .forget .fir {
+  cursor: pointer;
+}
+.container .forget .sec a {
+  text-decoration: underline;
+  color: #000000;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

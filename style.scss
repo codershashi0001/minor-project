@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -125,32 +126,117 @@ nav a:active{
 
 // login page
 
+.navvv{
+    margin: 25px;
+    text-decoration: none;
+    color: #000000;
+    text-decoration-color: #000000;
+
+    i{
+        color: #000000;
+    }
+}
 .container{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: inter;
+    gap: 10px;
 
-    .logo2{
+    // .logo2{
 
-    }
+    // }
     .welcome{
+font-weight: 800;
+font-size: 2.8rem;
+    }
 
+    .cen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin: ;
     }
     .cre{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 70px;
+        align-items: center;
+        justify-content: baseline;
+        width: 380px;
+        // flex-direction: column;
+color: black;
+font-size: 13px;
+// padding-left: 200px;
 
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
     }
     .box{
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: none;
+width: 315px;
+background-color: #D9D9D9;
 
+&::placeholder{
+    color: black;
+}
     }
     .log{
+background-color: black;
+color: white;
+font-weight: bold;
+font-size: 14px;
+border-radius: 10px;
+padding: 12px 15px;
+border: none;
+width: 315px;
 
     }
     .gog{
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 14px;
+border-radius: 10px;
+padding: 12px 15px;
+border: 1px solid black;
+width: 315px;
     }
     .forget{
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        font-size: 10px;
+        color: #000000;
+        gap: 15px;
+
+       
+
+            .fir{
+             cursor: pointer;
+            }
+
+             .sec{
+
+                a{
+                    text-decoration: underline;
+                    color: #000000;
+
+                font-weight: bold;
+             }
+            }
+        }
     }
-}
+
