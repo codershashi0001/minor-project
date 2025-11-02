@@ -279,6 +279,114 @@ nav a:active {
   font-weight: bold;
 }
 
+.gall {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+.gall .gall-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+.gall .gall-inner .up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  overflow: hidden;
+}
+.gall .gall-inner .up .box {
+  width: 250px;
+  height: 45vh;
+  background-color: #D9D9D9;
+  border: 10px;
+  border-radius: 10px;
+}
+.gall .gall-inner .up .box1, .gall .gall-inner .up .box2, .gall .gall-inner .up .box3, .gall .gall-inner .up .box4, .gall .gall-inner .up .box5, .gall .gall-inner .up .box6 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.gall .gall-inner .up .box1 .u2, .gall .gall-inner .up .box2 .u2, .gall .gall-inner .up .box3 .u2, .gall .gall-inner .up .box4 .u2, .gall .gall-inner .up .box5 .u2, .gall .gall-inner .up .box6 .u2 {
+  height: 50%;
+  width: 240px;
+  margin: auto;
+  padding-top: 5px;
+}
+.gall .gall-inner .up .box1 .u2 img, .gall .gall-inner .up .box2 .u2 img, .gall .gall-inner .up .box3 .u2 img, .gall .gall-inner .up .box4 .u2 img, .gall .gall-inner .up .box5 .u2 img, .gall .gall-inner .up .box6 .u2 img {
+  width: 240px;
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center-30px;
+     object-position: center-30px;
+}
+.gall .gall-inner .up .box1 .d2, .gall .gall-inner .up .box2 .d2, .gall .gall-inner .up .box3 .d2, .gall .gall-inner .up .box4 .d2, .gall .gall-inner .up .box5 .d2, .gall .gall-inner .up .box6 .d2 {
+  height: 50%;
+  width: 230px;
+  margin: auto;
+}
+.gall .gall-inner .up .box1 .d2 .head, .gall .gall-inner .up .box2 .d2 .head, .gall .gall-inner .up .box3 .d2 .head, .gall .gall-inner .up .box4 .d2 .head, .gall .gall-inner .up .box5 .d2 .head, .gall .gall-inner .up .box6 .d2 .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gall .gall-inner .up .box1 .d2 .dis p, .gall .gall-inner .up .box2 .d2 .dis p, .gall .gall-inner .up .box3 .d2 .dis p, .gall .gall-inner .up .box4 .d2 .dis p, .gall .gall-inner .up .box5 .d2 .dis p, .gall .gall-inner .up .box6 .d2 .dis p {
+  text-align: center;
+}
+.gall .gall-inner .down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 80px;
+}
+.gall .gall-inner .down .box {
+  width: 250px;
+  height: 45vh;
+  background-color: #D9D9D9;
+  border: 10px;
+  border-radius: 10px;
+}
+.gall .gall-inner .down .box4, .gall .gall-inner .down .box5, .gall .gall-inner .down .box6 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.gall .gall-inner .down .box4 .u2, .gall .gall-inner .down .box5 .u2, .gall .gall-inner .down .box6 .u2 {
+  height: 50%;
+  width: 240px;
+  margin: auto;
+  padding-top: 5px;
+}
+.gall .gall-inner .down .box4 .u2 img, .gall .gall-inner .down .box5 .u2 img, .gall .gall-inner .down .box6 .u2 img {
+  width: 240px;
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center-30px;
+     object-position: center-30px;
+}
+.gall .gall-inner .down .box4 .d2, .gall .gall-inner .down .box5 .d2, .gall .gall-inner .down .box6 .d2 {
+  height: 50%;
+  width: 230px;
+  margin: auto;
+}
+.gall .gall-inner .down .box4 .d2 .head, .gall .gall-inner .down .box5 .d2 .head, .gall .gall-inner .down .box6 .d2 .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gall .gall-inner .down .box4 .d2 .dis p, .gall .gall-inner .down .box5 .d2 .dis p, .gall .gall-inner .down .box6 .d2 .dis p {
+  text-align: center;
+}
+
 footer {
   font-family: "Montserrat", system-ui, Arial, sans-serif;
   padding: 40px 0;
@@ -288,6 +396,10 @@ footer {
 }
 footer .bo {
   font-weight: bold;
+}
+footer .bo div {
+  max-width: 50%;
+  height: 20px;
 }
 footer .top {
   top: 0;

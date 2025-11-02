@@ -364,6 +364,162 @@ cursor: pointer;
         }
     }
 
+//gallery started
+.gall{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+
+.gall-inner{
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        height: 100vh;
+
+
+
+    .up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        overflow: hidden;
+
+
+        .box{
+    width: 250px;
+    height: 45vh;
+    background-color: #D9D9D9;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+   object-fit: contain;
+   object-position: center ;
+
+
+
+
+   .u2{
+     height: 50%;
+     width: 240px;
+     margin: auto;
+     padding-top: 5px;
+
+   img{
+    width: 240px;
+    border-radius: 10px;
+    // height: 50%;
+       object-fit: contain;
+   object-position: center - 30px ;
+    // transform: scale(0.9);
+   }
+}
+.d2{
+     height: 50%;
+     width: 230px;
+     margin: auto;
+
+
+     .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+     }
+
+     .dis p{
+       
+        text-align: center;
+     }
+}
+
+}
+
+    }
+
+
+    .down{
+
+display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        gap: 80px;
+
+
+           .box{
+    width: 250px;
+    height: 45vh;
+    background-color: #D9D9D9;
+    border: 10px;
+    border-radius: 10px;
+}
+
+   
+
+ .box4, .box5, .box6{
+   object-fit: contain;
+   object-position: center ;
+
+
+
+
+   .u2{
+     height: 50%;
+     width: 240px;
+     margin: auto;
+     padding-top: 5px;
+
+   img{
+    width: 240px;
+    border-radius: 10px;
+    // height: 50%;
+       object-fit: contain;
+   object-position: center - 30px ;
+    // transform: scale(0.9);
+   }
+}
+.d2{
+     height: 50%;
+     width: 230px;
+     margin: auto;
+
+
+     .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+     }
+
+     .dis p{
+       
+        text-align: center;
+     }
+}
+
+}
+
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+    //gallery ended
+
 // footer section
 footer{
     font-family: "Montserrat", system-ui, Arial, sans-serif;
@@ -381,6 +537,10 @@ footer{
     .bo{
         font-weight: bold;
 
+        div{
+           max-width: 50%;
+            height: 20px;
+        }
         
     }
 
