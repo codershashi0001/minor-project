@@ -52,11 +52,85 @@ font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    // justify-content: center;
     background-color: white;
     padding: 0px 25px 0px 25px;
     flex-wrap: wrap;
     margin-top: 10px;
+
+ 
+
+    // last container of nav bar
+
+    .secc{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+
+
+// search icon
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
+
+
+        //input of search section
+
+
+        input[type="search"] {
+  width: 200px;
+  padding: 10px 35px;
+//   border: 2px solid #555;
+background-color: #000000;
+color: white;
+  border-radius: 20px;
+  font-style: inter;
+  font-size: 12px;
+  outline: none;
+  transition: 0.3s ease;
+  
+
+  &:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+
+  &::placeholder {
+    color: #b1b0b0;
+    font-style: italic;
+  }
+}
+    }
+
+    //vertical line
+     .vertical-line {
+      border-left: 2px solid black; /* Creates a 2px black vertical line on the left */
+      height: 50px; /* Sets the height of the line */
+      margin: 0 20px; /* Optional: Adds some spacing */
+    }
+
+button{
+    
+      width: 100px;
+  padding: 15px 5px;
+  border: none;
+background-color: #5891DE;
+color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-style: inter;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+
+}
+
 a,.logo{
     display: flex;
     // align-items: center;
@@ -74,7 +148,7 @@ a,.logo{
 nav{
     display: flex;
     /* align-items: center; */
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
    
 
@@ -87,14 +161,14 @@ nav{
 nav a:link {
      
     text-decoration:none ;
-    color: purple;
+    color: rgb(0, 0, 0);
 
 }
 
 nav a:visited {
-  color: rgb(0, 0, 0);  /* विजिटेड लिंक का color */
+  color: rgb(162, 14, 207);  /* विजिटेड लिंक का color */
   text-decoration: underline;
-    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(162, 14, 207);
 } 
 
 /* a:link 
@@ -127,7 +201,7 @@ nav a:active{
 // login page
 
 .navvv{
-    margin: 25px;
+    margin: 25px 0 50px 25px;
     text-decoration: none;
     color: #000000;
     text-decoration-color: #000000;
@@ -177,6 +251,15 @@ a{
     text-decoration: underline;
 }
     }
+
+    .read{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent; 
+        // margin-left: 60px;
+
+    }
     .box{
         padding: 10px 15px;
         border-radius: 10px;
@@ -197,6 +280,7 @@ border-radius: 10px;
 padding: 12px 15px;
 border: none;
 width: 315px;
+cursor: pointer;
 
     }
     .gog{
@@ -212,13 +296,15 @@ border-radius: 10px;
 padding: 12px 15px;
 border: 1px solid black;
 width: 315px;
+cursor: pointer;
     }
+
     .forget{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 200px;
-        font-size: 10px;
+        width: 400px;
+        font-size: 13px;
         color: #000000;
         gap: 15px;
 
