@@ -696,3 +696,166 @@ padding-top: 20px;
     background-size: cover; 
     background-image:url(./assets/images/National\ Museum\,\ New\ Delhi\ \(3\).jpg) ;
 }
+
+
+// about section 
+.abouts {
+    height: 300px;
+    width: 1000px;
+    /* background: linear-gradient(135deg, #ffffff 0%, #e6e5e5 100%); */
+    background-color: #ffffff;
+    color: white;
+    padding: 30px;
+    margin-left: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.abouts:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(213, 54, 213, 0.871);
+}
+ h2{
+    color: #000;
+
+}
+p{
+    margin-top: 10px;
+    color:#000;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 21px;
+}
+#bold, .bold{
+    color: #000;
+    /* display: flex;
+    align-items: flex-start; */
+}
+.d{
+    color: #000;
+}
+
+.three-cols {
+    width:1030px;
+    margin-left: 180px;
+     margin-right: 40px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.col {
+    height:350px;
+     /* width: 100px; */
+    flex: 1; 
+    /* margin-left: 30px; */
+    /* margin-right: 40px; */
+    /* background: linear-gradient(135deg, #ffecd2 0%, #d5cfcf 100%); */
+     background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: #adacac;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.col:hover {
+    background: linear-gradient(135deg, #D9D9D9 0%, #D9D9D9 100%);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #a76666;
+    color: #000;
+}
+
+.two-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    height:600px;
+    width: 1000px;
+    /* background: linear-gradient(135deg, #76b852 0%, #8DC26F 100%); */
+    background-color:  #ffffff;
+    color: white;
+    margin-left: 200px;
+    padding: 25px;
+    border-radius: 10px;
+    /* text-align: center; */
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(73, 65, 65, 0.1);
+    
+}
+
+.cen{
+     text-align: center;
+}
+
+.row:hover {
+    background: rgba(215, 215, 215, 0.959);
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(176, 83, 83, 0.2);
+}
+.row5{
+    height:250px;
+}
+
+ .pri{
+    top: 0;
+.title {
+            text-align: center;
+            font-size: 2.5em;
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(49, 43, 43, 0.1);
+            transition: color 0.3s ease;
+        }
+        .title:hover {
+            color: #3498db;
+        }
+        .top-div {
+            height: 150px;
+            width: 1000px;
+            background: linear-gradient(135deg, #D9D9D9, #D9D9D9);
+            padding: 30px;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            margin-left: 250px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+        .top-div:hover {
+            transform: translateY(-5px);
+        }
+        h2,p{
+            color: black;
+        }
+        .bottom-div {
+              height: 700px;
+            width: 1000px;
+            background-color: #d9d9d9;
+            padding: 30px;
+             margin-left: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        .bottom-div:hover {
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+    
+       
+            margin: 25px;
+        }
